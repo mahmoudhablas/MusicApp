@@ -20,7 +20,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginRight="5dp"
         android:layout_marginLeft="5dp"
-
+        android:onClick="playC"
         android:background="@color/blue"/>
 
     <Button
@@ -31,6 +31,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
+        android:onClick="playD"
 
         android:background="@color/green"/>
 
@@ -42,7 +43,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
-
+        android:onClick="playE"
         android:background="@color/orange"/>
 
     <Button
@@ -53,7 +54,8 @@
         android:layout_marginTop="3dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:background="@color/purple"/>
+        android:background="@color/purple"
+        android:onClick="playF"/>
 
     <Button
         android:id="@+id/note_5"
@@ -63,7 +65,9 @@
         android:layout_marginLeft="25dp"
         android:layout_marginBottom="3dp"
         android:layout_marginTop="3dp"
-        android:background="@color/red"/>
+        android:background="@color/red"
+        android:onClick="playG"
+        />
 
     <Button
         android:id="@+id/note_6"
@@ -73,7 +77,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginBottom="3dp"
         android:layout_marginTop="3dp"
-        android:background="@color/turquoise"/>
+        android:background="@color/turquoise"
+        android:onClick="playA"/>
     <Button
         android:id="@+id/note_7"
         android:layout_width="match_parent"
@@ -82,6 +87,7 @@
         android:layout_marginLeft="35dp"
         android:layout_marginBottom="3dp"
         android:layout_marginTop="3dp"
-        android:background="@color/yellow"/>
+        android:background="@color/yellow"
+        android:onClick="playB"/>
 </LinearLayout>
 
